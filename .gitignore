@@ -1,0 +1,56 @@
+# ===== Global =====
+# OS
+.DS_Store
+Thumbs.db
+._*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# ===== Server (Python) =====
+server/__pycache__/
+server/**/__pycache__/
+server/*.py[cod]
+server/**/*.py[cod]
+server/.venv/
+server/venv/
+server/.pytest_cache/
+server/.mypy_cache/
+server/.coverage
+server/htmlcov/
+server/**/*.egg-info/
+server/src/tmp/
+server/**/*.pid
+server/**/*.log
+
+# ===== Client (Python) =====
+client/__pycache__/
+client/**/__pycache__/
+client/.venv/
+client/venv/
+client/src/tmp/
+client/**/*.pid
+client/**/*.log
+
+# ===== Mobile (React Native/Expo) =====
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/ios/
+mobile/android/
+mobile/*.tsbuildinfo
+mobile/.metro-health-check*
+mobile/expo-env.d.ts
+mobile/npm-debug.*
+mobile/yarn-debug.*
+mobile/yarn-error.*
